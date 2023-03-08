@@ -3,14 +3,26 @@
   <div>{{ user }}</div>
   <button @click="spack">点击</button>
   <ResponsiveModel @hello="change" msg="hello"></ResponsiveModel>
+  <jisuan></jisuan>
+  <jianting></jianting>
+  <lifeCycle></lifeCycle>
+  <hookFun></hookFun>
 </template>
 
 <script>
 import {h} from 'vue'
 import ResponsiveModel from '@/view/响应式数据.vue'
+import jisuan from '@/view/计算属性.vue'
+import jianting from '@/view/watch监听属性.vue'
+import lifeCycle from '@/view/生命周期.vue'
+import hookFun from '@/view/自定义Hook函数.vue'
 export default {
   components: {
-    ResponsiveModel
+    ResponsiveModel,
+    jisuan,
+    jianting,
+    lifeCycle,
+    hookFun
   },
   name: 'App',
   /*
