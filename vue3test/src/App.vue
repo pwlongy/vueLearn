@@ -7,6 +7,11 @@
   <jianting></jianting>
   <lifeCycle></lifeCycle>
   <hookFun></hookFun>
+  <refModel></refModel>
+  <componentBox></componentBox>
+  <refZidingyi></refZidingyi>
+  <provideInject></provideInject>
+  <cmpostionAPi></cmpostionAPi>
 </template>
 
 <script>
@@ -16,13 +21,24 @@ import jisuan from '@/view/计算属性.vue'
 import jianting from '@/view/watch监听属性.vue'
 import lifeCycle from '@/view/生命周期.vue'
 import hookFun from '@/view/自定义Hook函数.vue'
+import refModel from '@/view/toRef.vue'
+import componentBox from "@/view/其他组合式api.vue"
+import refZidingyi from '@/view/自定义ref.vue'
+import provideInject from './view/provide与inject.vue'
+import cmpostionAPi from '@/view/响应式数据判断.vue'
 export default {
   components: {
     ResponsiveModel,
     jisuan,
     jianting,
     lifeCycle,
-    hookFun
+    hookFun,
+    refModel,
+    componentBox,
+    refZidingyi,
+    provideInject,
+    cmpostionAPi
+
   },
   name: 'App',
   /*

@@ -17,7 +17,6 @@
   export default{
     setup() {
       let point =  usePoint()
-      debugger
       return point
     }
   }
